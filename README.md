@@ -13,7 +13,7 @@ is abbreviated "bhf". Bhf is the abbreviation for the German word "Bahnhof", whi
 You can install the development version of bahnhof like so:
 
 ``` r
-devtools::install_github()
+devtools::install_github( "BrianLang/bahnhof")
 ```
 
 
