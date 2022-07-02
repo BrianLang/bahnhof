@@ -13,3 +13,18 @@ git_cleanup_local <- function() {
   system("git remote prune origin")
   system("git branch --merged | grep -v \\* | xargs git branch -D")
 }
+
+
+#' Show Git Commit History
+#'
+#' Presents git commit history and where each branch is located.
+#'
+#' @examples
+#' \dontrun{
+#' git_commit_history()
+#' }
+#'
+#' @export
+git_commit_history <- function() {
+  system("git log --decorate --graph --oneline")
+}
