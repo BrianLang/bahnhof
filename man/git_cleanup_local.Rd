@@ -4,7 +4,10 @@
 \alias{git_cleanup_local}
 \title{Cleanup Local Git Repo}
 \usage{
-git_cleanup_local()
+git_cleanup_local(main_branch = "main")
+}
+\arguments{
+\item{main_branch}{name of the master branch}
 }
 \description{
 Prunes branches (removes them from list of remote branches) from your local repo that are removed in the remote (origin).
