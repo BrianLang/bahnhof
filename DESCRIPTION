@@ -1,0 +1,15 @@
+Package: bahnhof
+Type: Package
+Title: Bahnhof (Bhf) Brian's Helper Functions
+Version: 0.1.0
+Authors@R: c(
+    person("Brian", "Matthew Lang", , "brianlang89@gmail.com", role = c("aut", "cre")))
+Maintainer: Brian Matthew Lang <brianlang89@gmail.com>
+Description: Provides a collection of tools for development workflow.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.0
